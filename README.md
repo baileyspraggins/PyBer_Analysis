@@ -5,7 +5,8 @@
   After a meeting with V. Isualize, where we presenting various data on PyBer, we have received an additional assignment to create a summary DataFrame of the key statistics by city type as well as a visualization showing the total fares for each week for each type of city. 
 
 ### Results
-![]
+![](Analysis/final_summary_df.png)
+
 ![] 
 
 ### Steps and Analysis
