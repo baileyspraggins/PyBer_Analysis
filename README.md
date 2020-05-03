@@ -7,7 +7,7 @@
 ### Results
 ![](Analysis/final_summary_df.png)
 
-![] 
+![](Analysis/Fig8.png)
 
 ### Steps and Analysis
 After a meeting with V. Isualize, where we presenting various data on Pyber, we have received an additional assignment to create a summary DataFrame of the key statistics by city type as well as a visualization showing the total fares for each week for each type of city. For summary DataFrame, we created various series for each category using the groupby function and grouping by type. The only category that did not utilize this method was “Average Fare per Driver”, which used simple division of “Total Fares” by “Total Drivers”. After that, we used these series to compiled a new DataFrame called “final_summary_df”, which displays our first Technical Analysis Deliverable. For the second analysis we created a multiple line chart that shows the total fare per week by city. To do this we created a pivot table DataFrame with its index being the date and the columns being the fares in categories by city. After that we put the DataFrame in bins by weeks and lastly plotted the data using the ‘fivethirtyeight’ format. 
